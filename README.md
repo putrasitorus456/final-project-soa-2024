@@ -5,7 +5,7 @@
 
 ## 🧑‍💻 How to Run this Project in Local
 - Some Prequisites:
-  - You need (Windows) Docker Dekstop for orchestration
+  - You need (Windows) Docker Dekstop for orchestration & automated scaling (optional)
   - (WSL) Redis server for cache
 - Clone this project on your computer.
 
