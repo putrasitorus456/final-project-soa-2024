@@ -1,5 +1,5 @@
 const Product = require('../models/productModel');
-const { getAsync, setAsync, delAsync } = require('../redisClient');
+const { getAsync, setAsync, delAsync } = require('../redisClientProduct');
 
 exports.getProducts = async (req, res) => {
     try {
