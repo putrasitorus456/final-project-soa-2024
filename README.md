@@ -34,6 +34,14 @@ Validate server status is running
 sudo service redis-server status
 ```
 
+Don't forget to adjust the host and port of Redis on the Redis Client code!
+
+One of the code will looks like this (User-service)
+
+```bash
+const redisClient = redis.createClient({ host: '192.168.11.48', port: 6379 });
+```
+
 ## 💻 If Using Docker for Orchestration
 
 Open terminal and navigate to project root
